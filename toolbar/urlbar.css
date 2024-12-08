@@ -25,7 +25,6 @@
     --urlbar-toolbar-height: calc(5px + 16px + var(--toolbarbutton-inner-padding) * 2) !important;
     --urlbar-height: calc(16px + var(--toolbarbutton-inner-padding) * 2) !important;
     --urlbar-min-height: calc(16px + var(--toolbarbutton-inner-padding) * 2) !important;
-    font-size: 1em !important;
   }
 
   /* Spacing for urlbar suggestion icons. */
@@ -64,7 +63,6 @@
   padding-inline: var(--uc-urlbar-inline-padding) !important;
 }
 
-#urlbar #urlbar-input {text-align: center !important}
 #urlbar-background {background: transparent !important;}
 
 #nav-bar[urlbar-exceeds-toolbar-bounds="true"] #urlbar-background {background: var(--arrowpanel-background) !important;}
