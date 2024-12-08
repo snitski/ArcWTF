@@ -22,12 +22,6 @@
   padding: var(--toolbarbutton-inner-padding) var(--uc-toolbarbutton-inner-inline-padding) !important;
 }
 
-#PanelUI-button {
-  order: -1 !important;
-  margin-left: 5px !important;
-   padding-right: 0px !important;
-}
-
 /* Make navbar keep using lwt-accent-color even when browser window is inactive. */
 #navigator-toolbox {
   &:-moz-lwtheme {
