@@ -123,9 +123,12 @@
   list-style-image: url("chevron.svg") !important;
 }
 
-#PanelUI-menu-button,
+#PanelUI-menu-button {
+  list-style-image: url("menu-hamburger.svg") !important;
+}
+
 #appMenu-more-button2 {
-  list-style-image: url("menu.svg") !important;
+  list-style-image: url("menu-dots.svg") !important;
 }
 
 #appMenu-help-button2 {
@@ -292,10 +295,6 @@
   list-style-image: url("info.svg") !important;
 }
 
-#identity-box[pageproxystate="valid"].chromeUI #identity-icon {
-  list-style-image: url("firefox.svg") !important;
-}
-
 #identity-box[pageproxystate="valid"].localResource #identity-icon {
   list-style-image: url("page-portrait.svg") !important;
 }
@@ -327,10 +326,6 @@
 #identity-box[pageproxystate="valid"].mixedActiveContent #identity-icon,
 #identity-box[pageproxystate="valid"].httpsOnlyErrorPage #identity-icon {
   list-style-image: url("security-broken.svg") !important;
-}
-
-#identity-popup[connection=chrome] .identity-popup-security-connection {
-  list-style-image: url("firefox.svg") !important;
 }
 
 #identity-popup[connection="file"] .identity-popup-security-connection {
